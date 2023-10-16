@@ -1,0 +1,14 @@
+# auroral_integration-js:
+#   filter: rjsmin
+#   output: ckanext-auroral_integration/%(version)s-auroral_integration.js
+#   contents:
+#     - js/auroral_integration.js
+#   extra:
+#     preload:
+#       - base/main
+
+# auroral_integration-css:
+#   filter: cssrewrite
+#   output: ckanext-auroral_integration/%(version)s-auroral_integration.css
+#   contents:
+#     - css/auroral_integration.css

@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        auroral_integration=ckanext.auroral_integration.plugin:AuroralIntegrationPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
